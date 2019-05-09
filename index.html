@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <style>
+    .raleway {
+      font-family: 'Raleway', sans-serif;
+    }
+    .open-sans {
+      font-family: 'Open Sans', sans-serif;
+    }
+    body {
+      background: hsl(218, 28%, 13%);
+      overflow-x: hidden;
+    }
+    .content-box {
+      box-sizing: content-box;
+    }
+    .button {
+      border-radius: 25px;
+      background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    }
+    b {
+      font-weight: 700;
+    }
+    .input {
+      border: 0;
+      border-radius: 25px;
+    }
+    .input::placeholder {
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+    }
+    .border-radius-5px{
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark p-5" style="background-color:hsl(217, 28%, 15%) !important; ">
+  <a class="navbar-brand" href="#"><img width="120px" src="images/logo.svg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Sign In</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+  <div style="background: hsl(217, 28%, 15%) !important;" class="content-box">
+    <div class="container-fluid content-box" 
+  style="background-image:url('images/bg-curvy-desktop.svg');background-repeat: no-repeat;background-size: 100%;background-position: 0px 100%;  ">
+    <img class="mr-auto ml-auto d-block" src="images/illustration-intro.png">
+    <h2 class="text-white text-center font-weight-bold raleway">All your files in one secure location,<br>
+     accessible anywhere.</h2>
+     <p class="text-white p-5 ml-auto mr-auto text-center open-sans mb-0">
+     Fylo stores all your most important files in one secure location.<br> Access them wherever 
+  you need, share and collaborate with<br> friends family, and co-workers.</p>
+  <button class="btn btn-primary button ml-auto mr-auto d-block p-2 pl-5 pr-5 "><b class="open-sans">Get Started</b></button>
+  </div>
+  </div>
+  <div class="container pb-5 mb-5">
+      <div class="row mb-5 pb-5">
+        <div class="col-12 col-md-6 col-lg-6 mt-5">s
+          <img src="images/icon-access-anywhere.svg" class="d-block mr-auto ml-auto">
+          <h4 class="text-white text-center raleway mt-4"><b>Access your files, anywhere</b></h4>
+          <p class="text-white text-center open-sans pl-5 pr-5">The ability to use a smartphone, tablet, or computer to access your account means your 
+  files follow you everywhere.</p>
+        </div>
+         <div class="col-12 col-md-6 col-lg-6 mt-5">
+          <img src="images/icon-security.svg" class="d-block mr-auto ml-auto">
+          <h4 class="text-white text-center raleway mt-4"><b>Security you can trust</b></h4>
+          <p class="text-white text-center open-sans pl-5 pr-5">2-factor authentication and user-controlled encryption are just a couple of the security 
+  features we allow to help secure your files.</p>
+        </div>
+         <div class="col-12 col-md-6 col-lg-6 mt-5">
+          <img src="images/icon-collaboration.svg" class="d-block mr-auto ml-auto">
+          <h4 class="text-white text-center raleway mt-4"><b>Real-time collaboration</b></h4>
+          <p class="text-white text-center open-sans pl-5 pr-5">Securely share files and folders with friends, family and colleagues for live collaboration. 
+  No email attachments required.</p>
+        </div>
+         <div class="col-12 col-md-6 col-lg-6 mt-5">
+          <img src="images/icon-any-file.svg" class="d-block mr-auto ml-auto">
+          <h4 class="text-white text-center raleway mt-4"><b>Store any type of file</b></h4>
+          <p class="text-white text-center open-sans pl-5 pr-5">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+  file types to be securely stored and shared.</p>
+        </div>
+      </div>
+    </div>
+  <div class="container-fluid mt-5 pt-5">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-5 col-lg-5">
+        <img width="90%" class="d-block ml-auto" src="images/illustration-stay-productive.png">
+      </div>
+      <div class="col-12 col-md-5 col-lg-5 mt-5 pt-5">
+        <h2 class="text-white raleway"><b>Stay productive,<br> wherever you are</b></h2>
+        <p class="text-white open-sans">
+          Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+  storage needs.</p><p class="mt-3 text-white">
+
+  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+  attachments required.
+        </p>
+        <a style="color: hsl(176, 68%, 64%);text-decoration: none;border-bottom:solid 0.5px " class="pb-2" href="#">See how Fylo works <img src="images/icon-arrow.svg"></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-5 pt-5 h-25">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-3 col-lg-3 p-4 m-4" style="background-color: hsl(219, 30%, 18%);">
+      <p class="text-white open-sans">
+        Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+      </p>
+      <div class="d-flex">
+        <img width="30px" height="30px" class="mt-1" style="border-radius:25px;" src="images/profile-1.jpg">
+        <div class="ml-2">
+          <p class="text-white mb-0" style="font-size: 14px"><b>Satish Patel</b></p>
+          <p class="text-white" style="font-size: 12px;">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-md-3 col-lg-3 p-4 m-4" style="background-color: hsl(219, 30%, 18%);">
+      <p class="text-white open-sans">
+         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+      </p>
+      <div class="d-flex">
+        <img width="30px" height="30px" class="mt-1" style="border-radius:25px;" src="images/profile-2.jpg">
+        <div class="ml-2">
+          <p class="text-white mb-0" style="font-size: 14px"><b>Bruce McKenzie</b></p>
+          <p class="text-white" style="font-size: 12px;">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-12 col-md-3 col-lg-3 p-4 m-4" style="background-color: hsl(219, 30%, 18%);">
+      <p class="text-white open-sans">
+        Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+      </p>
+      <div class="d-flex">
+        <img width="30px" height="30px" class="mt-1" style="border-radius:25px;" src="images/profile-3.jpg">
+        <div class="ml-2">
+          <p class="text-white mb-0" style="font-size: 14px"><b>Iva Boyd</b></p>
+          <p class="text-white" style="font-size: 12px;">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+ 
+
+ 
+<div class="container mt-5 pt-5">
+  
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-8 p-5 border-radius-5px position-relative" style="background-color: hsl(217, 28%, 15%);top:60px;">
+      <h2 class="raleway font-weight-bold text-white text-center">Get early access today</h2>
+      <b>
+        <p class="open-sans text-white text-center mt-3">
+           It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+  questions, our support team would be happy to help you.
+
+  
+        </p>
+      </b>
+      <form class="mt-4 pt-4">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-7 mt-3">
+            <input class="w-100 p-1 mt-1 input" placeholder="name@example.com" type="text" name=""> 
+          </div>
+          <div class="col-12 col-md-12 col-lg-5 mt-3">
+            <button class="btn btn-primary button pl-5 pr-5">Get Started For Free</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+  
+
+
+
+
+  <footer style="background-color: hsl(216, 53%, 9%)">
+    <div class="container-fluid pt-5">
+      <div class="row pt-5 pb-5 justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4 p-3">
+          <img class="ml-5" src="images/logo.svg">
+            <div class="mt-4 ml-5">
+             <p class="text-white open-sans">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+  dolore magna aliqua
+             </p>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <ul class="list-unstyled">
+            <li><a class="text-white text-decoration-none" href="#"><img src="images/icon-phone.svg"> +1-543-123-4567</a></li>
+            <li class="mt-3"><a class="text-white text-decoration-none" href="#"><img src="images/icon-email.svg" alt=""> example@fylo.com</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-1">
+          <ul class="list-unstyled">
+            <li><a class="text-white text-decoration-none" href="#">About Us</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Jobs</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Press</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-1">
+          <ul class="list-unstyled">
+            <li><a class="text-white text-decoration-none" href="#">Contact Us</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Terms</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-1">
+          <ul class="list-unstyled list-iniline">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-white p-2" style="background: hsl(218, 28%, 13%);"  >
+      Challenge by <b><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></b>. 
+      Coded by <b><a href="https://web.facebook.com/Qsd5k">Belgacemi mohamed seddik</a>.</b>
+    </p>
+  </footer>
+</body>
+</html>
